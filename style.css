@@ -429,16 +429,21 @@ max-width: 50ch;
 
 
 
-}a:link {
+}
+a{
+  color: #000;
+}
+a:link {
   text-decoration: none;
   color:black;
 	}
 a:hover {
 	text-decoration: underline; 
-	color: #fff
+	color: #fff;
 	}
 a:active {
-	text-decoration: none
+  text-decoration: none;
+  color:#fff;
 	}
 .btn-one span {
 	transition: all 0.3s;
@@ -715,6 +720,7 @@ height:10vh;
 .boxtwo {
 width:10vh;
 height:10vh;
+left: 20%;
 }
 
 .boxone {
@@ -937,4 +943,5 @@ font-size: 2em;
 }
  .apresent{
   margin-bottom: 30%;
+}
 }
