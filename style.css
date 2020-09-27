@@ -845,7 +845,7 @@ ul{
   top: 90%;
   margin-top: 50%;
   left: 5%;
-
+display: block;
   margin-bottom: 12%;
   width: 40%;
 }
