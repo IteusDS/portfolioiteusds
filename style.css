@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-image: linear-gradient(135deg, #ffff43 0, #ffef39 25%, #fed530 50%, #e9bc28 75%, #d5a421 100%);
   }
   body{
     font-family: 'Montserrat', sans-serif;
@@ -865,9 +866,14 @@ background-color: #000;
 margin-left: 0%;
     z-index: 10;
  }
+ .background{
+   opacity: 0;
+ }
 
 html{
-  background-color: #FED531;
+  background-image: linear-gradient(135deg, #ffff43 0, #ffef39 25%, #fed530 50%, #e9bc28 75%, #d5a421 100%);
+  background-size: cover;
+  background: linear-gradient(135deg, #ffff43 0, #ffef39 25%, #fed530 50%, #e9bc28 75%, #d5a421 100%); ;
 }
 
 ul .navbar li{
@@ -941,6 +947,7 @@ font-size: 2em;
   margin-top: 0;
   left: 20%;
   font-size: 2em;
+  text-align: center;
 }
  .apresent{
   margin-bottom: 30%;
