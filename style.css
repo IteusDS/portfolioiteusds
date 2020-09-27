@@ -408,10 +408,17 @@ max-width: 50ch;
       BUTTON ONE
 ========================
 */
+.header0008 h2{
+  font-size: 5em;
+}
 .btn-one {
 	color: #FFF;
 	transition: all 0.3s;
-	position: absolute;
+  position: absolute;
+
+  
+
+
 }
 .btn-one span {
 	transition: all 0.3s;
@@ -827,10 +834,7 @@ margin-left: 0%;
 html{
   background-color: #FED531;
 }
-.box-1{
-  top: 85%;
-  margin-top: 50%;
-}
+
 ul .navbar li{
   width: 100%;
   
@@ -843,7 +847,7 @@ ul{
   width:100%;}
 }
 .btn-one{
-  top: 92%;
+top: 93%;
   margin-top: 50%;
   left: 5%;
 display: block;
@@ -868,29 +872,29 @@ font-size: 2em;
 
 
 .icon-rede1{
-  top: 50%;
-  left: 60%;
+  top: 55%;
+  left: 50%;
 }
 
 .icon-rede2{
-  top: 50%;
-  left: 75%;
+  top: 55%;
+  left: 65%;
 
 }
 
 .icon-rede3{
-  top: 50%;
-  left:45%
+  top: 55%;
+  left:35%
 
 }
 
 .icon-rede4{
-  top:50%;
-  left: 30%;
+  top:55%;
+  left: 20%;
 
 }
 .cont-full .header-text02{
-  top:40%;
+  top:35%;
   margin-top: 0;
   left: 20%;
   font-size: 2em;
