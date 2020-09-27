@@ -821,7 +821,8 @@ background-color: #000;
     bottom:0;
     left:0;
 margin-left: 0%;
-    z-index: 10;}
+    z-index: 10;
+ ;}
 
 html{
   background-color: #FED531;
@@ -842,11 +843,11 @@ ul{
   width:100%;}
 }
 .btn-one{
-  top: 90%;
+  top: 92%;
   margin-top: 50%;
   left: 5%;
 display: block;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
   width: 40%;
 }
 .fifth{
