@@ -829,7 +829,7 @@ background-color: #000;
     left:0;
 margin-left: 0%;
     z-index: 10;
- ;}
+ }
 
 html{
   background-color: #FED531;
@@ -845,13 +845,13 @@ ul .navbar{
 }
 ul{
   width:100%;}
-}
+
 .btn-one{
 top: 93%;
   margin-top: 50%;
   left: 5%;
-display: block;
-  margin-bottom: 5%;
+display: inline-block;
+  margin-bottom: 14%;
   width: 40%;
 }
 .fifth{
