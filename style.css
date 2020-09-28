@@ -687,9 +687,13 @@ color: #FED531;
   opacity: 1;
 }
 .head003 h3{
-  font-size: 1.3em;
-  margin-top: 15%;
+  font-size: 1.2em;
+  margin-top: 14%;
+  display: inline-block;
+  left: 60%;
+  text-align: right;
 }
+
 .header-t1mob{
   width: 5%;
   display: block;
@@ -709,6 +713,9 @@ margin-left: 4px;
 .header ul li:nth-of-type(4) {
   margin-right: 10%;
 
+}
+.eee{
+  text-align: center;
 }
 
 .header ul li{
@@ -945,11 +952,12 @@ font-size: 2em;
 .cont-full .header-text02{
   top:35%;
   margin-top: 0;
-  left: 20%;
   font-size: 2em;
   text-align: center;
+  left: 5%;
 }
  .apresent{
   margin-bottom: 30%;
 }
+
 }
