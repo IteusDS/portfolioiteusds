@@ -617,11 +617,12 @@ header .header-text02{
     position: absolute;
     margin-bottom: 20px;
     top: 40%;
-    left: 32%;
+   left: 33%;
 color: #000;
     animation: fadein 5s linear;
    
     transition: all 0.7s ease;
+    text-align: center;
   
   }
   
@@ -950,11 +951,11 @@ font-size: 2em;
 
 }
 .cont-full .header-text02{
-  top:35%;
+  top:40%;
   margin-top: 0;
   font-size: 2em;
-  text-align: center;
-  left: 5%;
+  left: 15%;
+
 }
  .apresent{
   margin-bottom: 30%;
