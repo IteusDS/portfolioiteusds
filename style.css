@@ -112,7 +112,6 @@ z-index: 0;
 
 
 
-
   .header-text{
       font-size: 68px;
       position: absolute;
@@ -682,7 +681,38 @@ color: #FED531;
 
 /* RESPONSIVO */
 
+footer{
+  margin:0px;
+  text-align: center;
+  left: 0%;
+  width: 100%;
+  
+}
+footer .footer01{
+  text-align: left;
+  margin-left: 0%;
+  padding-left: 0%;
+  left: 0%;
+  
+  position: absolute;
+}
 
+footer  p{
+  margin-left: 0%;
+}
+.footer01{
+ 
+  position: absolute;
+
+background-color: #000;
+    width: 100%;
+    position: fixed;
+  
+    bottom:0;
+
+margin-left: 0%;
+    z-index: 10;
+ }
 @media only screen and (max-width: 500px){
 .background{
     width: 100%;

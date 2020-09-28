@@ -1,7 +1,9 @@
 
 
 body {
-  font-family: 'Montserrat', sans-serif;
+ 
+    font-family: 'Montserrat', sans-serif;
+
   background-color: #FED531;
 }
 
@@ -11,7 +13,7 @@ body {
     letter-spacing: 1px;
     padding: 40px 40px 3px 40px;
     color: #000;
-    margin-top: 30px;
+    margin-top: 40px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -37,6 +39,12 @@ body {
   filter: none;
 }
 
+.head0009{
+  font-size: 4em;
+  margin-right: 5%;
+  margin-top: 45%;
+
+}
 .img-box {
   box-sizing: content-box;
   margin: 10px;
