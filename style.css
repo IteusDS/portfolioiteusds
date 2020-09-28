@@ -667,6 +667,12 @@ header h4{
 
 
 }
+header .nav_bar{
+  
+    margin: 0;
+    
+  
+}
 
 .cont-full{
 background-color: #000;
@@ -959,6 +965,10 @@ font-size: 2em;
 }
  .apresent{
   margin-bottom: 30%;
+}
+
+.header h2{
+  left: 50%;
 }
 
 }
