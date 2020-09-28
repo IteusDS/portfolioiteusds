@@ -190,7 +190,7 @@ z-index: 0;
 .fifth {
     border-color: #000;
     border-radius: 0;
-    color: #000;
+    color: #fff;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -495,6 +495,7 @@ a:active {
     
 background-color: #000;
 }
+
 .btn-one::after {
 	content: '';
 	position: absolute;
@@ -698,7 +699,7 @@ footer .footer01{
 }
 
 footer  p{
-  margin-left: 0%;
+  margin-left: 10%;
 }
 .footer01{
  
@@ -709,7 +710,7 @@ background-color: #000;
     position: fixed;
   
     bottom:0;
-
+text-align: left;
 margin-left: 0%;
     z-index: 10;
  }
