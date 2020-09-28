@@ -960,8 +960,17 @@ font-size: 2em;
   top:40%;
   margin-top: 0;
   font-size: 2em;
-  left: 15%;
+  left: unset
+  ;
+  text-align: center;
+left: 15%;
 
+}
+
+.cont-full{
+  text-align: center;
+  width: 100%;
+ 
 }
  .apresent{
   margin-bottom: 30%;
