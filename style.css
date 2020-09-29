@@ -5,6 +5,7 @@ html {
     scroll-behavior: smooth;
     background-image: linear-gradient(135deg, #ffff43 0, #ffef39 25%, #fed530 50%, #e9bc28 75%, #d5a421 100%);
   }
+  
   body{
     font-family: 'Montserrat', sans-serif;
   
@@ -1320,7 +1321,7 @@ text-align: center;
 
 footer{
   bottom: 0%;
-  padding: 20%;
+  padding: 1%;
 }
 
 
@@ -1354,3 +1355,4 @@ margin-left: 0%;
  }
 
 }
+
