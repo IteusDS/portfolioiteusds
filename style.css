@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color:  #FED531;
 
   }
   
@@ -169,7 +170,7 @@ height: 100%;
     background-color: transparent;
     border: 2px solid #e74c3c;
     border-radius: 0.6em;
-    color: #e74c3c;
+    color: #fff;
     cursor: pointer;
     display: -webkit-box;
     display: -webkit-flex;
@@ -225,12 +226,14 @@ height: 100%;
     z-index: -1;
     -webkit-transition: width 150ms ease-in-out;
     transition: width 150ms ease-in-out;
+    color: #Fff;
   }
   .fifth:hover {
     color: #fff;
   }
   .fifth:hover:after {
     width: 110%;
+    color: #Fff;
   }
   
   .boxone {
@@ -401,14 +404,14 @@ to{top:250px;}
     font-size: 20px;
 margin-top: 30px;
     position: absolute;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     top: 70%;
     left: 0%;
 max-width: 50ch;
     animation: fadein 5s linear;
    background-color: #2D2E2C;
     transition: all 0.7s ease;
-    padding: 20px 30px 20px 30px;
+    padding:10px 30px;
     color: #FED531;
 
 }
@@ -445,7 +448,7 @@ a{
 }
 a:link {
   text-decoration: none;
-  color:black;
+  color:#Fff;
 	}
 a:hover {
 	text-decoration: underline; 
@@ -495,7 +498,7 @@ a:active {
     position: absolute;
     padding-right: 100px;
     padding-left: 100px;
-    top: 80%;
+
     left: 60%;
     color: #FED531;
     background-color: #2D2E2C;
@@ -622,6 +625,40 @@ background-color: #000;
 
 
 
+
+
+.cont-full h2::after {
+	content: '';
+	display: block;
+	width: 50%;
+	height: 8px;
+	background: #000;
+    margin: 0 auto;
+    z-index: 10;
+}
+.header0008 h2::after{content: '';
+	display: block;
+	width: 4em;
+	height: 8px;
+	background: #000;
+    margin: 0;
+    z-index: 10;
+
+}
+
+
+.heading::after{content: '';
+	display: block;
+	width: 4em;
+	height: 8px;
+	background: #000;
+    margin: 10px auto;
+    z-index: 10;
+
+}
+
+
+
 header .header-text02{
     font-size: 50px;
     position: absolute;
@@ -736,12 +773,14 @@ margin-left: 0%;
   opacity: 1;
 }
 .head003 h3{
-  font-size: 1.2em;
-  margin-top: 14%;
+  font-size: 1.5em;
+  margin-top: 4%;
   display: inline-block;
-  left: 60%;
-  text-align: right;
+
+  text-align: left;
+  padding: 0;
 }
+
 
 .header-t1mob{
   width: 5%;
@@ -944,8 +983,8 @@ ul{
   width:100%;}
 
 .btn-one{
-top: 93%;
-  margin-top: 50%;
+
+  margin-top: 10%;
   left: 5%;
 display: inline-block;
   margin-bottom: 14%;
@@ -1010,7 +1049,7 @@ left: 10%;
 }
 
  .apresent{
-  margin-bottom: 30%;
+  margin-bottom: 5%;
 }
 
 .header h2{
@@ -1023,14 +1062,22 @@ text-align: center;
 .nav-bar a{
   color: #fff;
 }
+
+.apresent {
+  margin-bottom: 20%;
+  margin-top: 3%;
+}
 }
 
 
 
+@MEDIA ONLY SCREEN AND (MIN-WIDTH: 500PX) AND (MAX-WIDTH: 768PX){ 
 
 
 
-@MEDIA ONLY SCREEN AND (MIN-WIDTH: 768PX) AND (MAX-WIDTH: 959PX){ 
+
+
+@MEDIA ONLY SCREEN AND (MIN-WIDTH: 500PX) AND (MAX-WIDTH: 979PX){ 
 
 .background{
     width: 100%;
@@ -1044,7 +1091,7 @@ text-align: center;
 }
 .head003 h3{
   font-size: 1.2em;
-  margin-top: 14%;
+  margin-top: 2%;
   display: inline-block;
   left: 60%;
   text-align: right;
@@ -1254,9 +1301,9 @@ ul{
   width:100%;}
 
 .btn-one{
-top: 93%;
-  margin-top: 50%;
-  left: 5%;
+
+  margin-top: 2%;
+  left: 12%;
 display: inline-block;
   margin-bottom: 20%;
   width: 40%;
@@ -1321,8 +1368,8 @@ left: 25%;
 
 }
 
- .apresent{
-  margin-bottom: 30%;
+ .apresent p{
+  margin-bottom: 20%;
 }
 
 .header h2{
@@ -1372,6 +1419,11 @@ margin-left: 0%;
  .nav-bar a{
   color: #fff;
 }
+.container{
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto;
+}
 }
 
 
@@ -1390,8 +1442,8 @@ margin-left: 0%;
   opacity: 1;
 }
 .head003 h3{
-  font-size: 1.2em;
-  margin-top: 14%;
+  font-size: 1.5em;
+  margin-top: 3%;
   display: inline-block;
   left: 60%;
   text-align: right;
@@ -1601,15 +1653,15 @@ ul{
   width:100%;}
 
 .btn-one{
-top: 93%;
-  margin-top: 50%;
+
+  margin: 0 auto;
   left: 5%;
 display: inline-block;
-  margin-bottom: 14%;
+
   width: 40%;
 }
 .fifth{
-  margin-top: 25%;
+  margin-top: 10%;
 }
 .navforpro:nth-of-type(1){
   margin-left: 0px;
@@ -1618,6 +1670,11 @@ display: inline-block;
 
 }
 
+.container{
+  display: flex;
+  max-width: 450px;
+  margin: 0 auto;
+}
 .navforpro:nth-of-type(1){
   left:25%; 
 }
@@ -1666,7 +1723,7 @@ left: 25%;
 }
 
  .apresent{
-  margin-bottom: 30%;
+  margin-bottom: 5%;
 }
 
 .header h2{
